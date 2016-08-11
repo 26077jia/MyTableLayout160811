@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context="com.myexample.jiajia.mytablelayout160811.MainActivity">
+
+    <include layout="@layout/include_toolbar_custom"/>
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/app_desc"
+        android:layout_marginTop="10dp"
+       />
+    <Button
+        android:id="@+id/btn_main_toptab"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="topTabLayout"
+        android:textSize="16sp"
+        android:layout_marginTop="10dp"/>
+    <Button
+        android:id="@+id/btn_main_bottomtab"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="bottomTabLayout"
+        android:textSize="16sp"
+        android:layout_marginTop="10dp"/>
+</LinearLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TabLayoutShow</string>
+    <string name="app_desc">TabLayout + ViewPager
+    分别实现顶部、底部tab，左右滑动切换。</string>
+</resources>
